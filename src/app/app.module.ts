@@ -4,18 +4,22 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MainMenuComponent } from './main-menu/main-menu.component';
 import { TipsComponent } from './tips/tips.component';
-import { AnalysysComponent } from './analysys/analysys.component';
+import { AnalysisComponent } from './analysis/analysis.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatButtonModule} from "@angular/material/button";
 
 @NgModule({
   declarations: [
     AppComponent,
     MainMenuComponent,
     TipsComponent,
-    AnalysysComponent
+    AnalysisComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatButtonModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

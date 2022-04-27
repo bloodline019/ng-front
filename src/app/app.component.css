@@ -1,1 +1,29 @@
 
+body {
+  position: relative;
+}
+
+.title {
+  vertical-align: top;
+  text-align: center;
+  color: white;
+  margin-top: 8px;
+}
+
+.title h2 {
+  margin-bottom: 1px;
+}
+.title small {
+  font-size: 0.7em;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

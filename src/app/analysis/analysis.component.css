@@ -1,3 +1,7 @@
+.btn-group {
+  margin: auto 64px;
+
+}
 .btn-group button {
   background-color: rgba(255, 255, 255, 0);
   border: 1px solid white;
